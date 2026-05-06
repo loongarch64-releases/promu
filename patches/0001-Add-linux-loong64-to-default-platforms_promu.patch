@@ -1,0 +1,24 @@
+From 079156c58f007dac3cdbea59e8b9fb9f120943e9 Mon Sep 17 00:00:00 2001
+From: qiangxuhui <qiangxuhui@loongson.cn>
+Date: Wed, 6 May 2026 06:39:35 +0000
+Subject: [PATCH] Add linux/loong64 to default platforms
+
+---
+ cmd/crossbuild.go | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/cmd/crossbuild.go b/cmd/crossbuild.go
+index 5c2f2b8..564f07c 100644
+--- a/cmd/crossbuild.go
++++ b/cmd/crossbuild.go
+@@ -58,6 +58,7 @@ var (
+ 		"linux/ppc64le",
+ 		"linux/riscv64",
+ 		"linux/s390x",
++		"linux/loong64",
+ 		"netbsd/386",
+ 		"netbsd/amd64",
+ 		"netbsd/arm64",
+-- 
+2.53.0
+
